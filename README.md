@@ -18,7 +18,13 @@ Please cite the original thesis or paper where appropriate if you use this code 
 ## 📁 Repository Structure
 ### Clock-Transitions
 From "Chapter 2: Clock Transitions Guard Against Spin Decoherence in Singlet Fission." This Chapter was reproduced from Lewis, S. G., Smyser, K. E. and Eaves, J. D. *J. Chem. Phys.* **155**, 194109, (2021), with the permission of AIP Publishing. Use of data and results should cite the paper.  
-Provided data includes Mathematica notebooks used in the analysis and final figures.
+
+**Data:** Mathematica notebooks used in the analysis
+**Figures:** Final figures as Adobe Illustrator files and PNGs.
 
 
-### Chapter 3: Steric-Induced Bending and Energy Level Shifts in 9-Anthracene on Si(111)
+### Anthracene-Silicon
+From "Chapter 3: Steric-Induced Bending and Energy Level Shifts in 9-Anthracene on Si(111)." This Chapter is a manuscript in preparation in collaboration with Celena Marsters and Sean Roberts.
+
+**Data:** Orginal Kohn-Sham Hamiltonian in the basis of $p_z$ and $sp^2$ orbitals for planar and bent anthracene. Measured distances between atoms for planar and bent anthracene.
+
