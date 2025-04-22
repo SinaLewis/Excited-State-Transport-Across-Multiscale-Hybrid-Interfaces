@@ -4,5 +4,6 @@
 
 
 ## 🗂 Contents
-- `Gaussian_NBO_analysis/` 
-- `VASP/` 
+- `Gaussian_NBO_analysis/` output from Gaussian natural bonding obrital (NBO) calculations
+- `VASP/` OUTCAR, POSCAR, and DOSCAR from VASP calculations
+- 
