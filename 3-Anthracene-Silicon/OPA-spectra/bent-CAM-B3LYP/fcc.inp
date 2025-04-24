@@ -1,0 +1,17 @@
+$$$
+PROPERTY     =   OPA  ; OPA/EMI/ECD/CPL/RR/TPA/MCD/IC
+MODEL        =   VG   ; AS/ASF/AH/VG/VGF/VH
+DIPOLE       =   FC   ; FC/HTi/HTf
+TEMP         =   295.5 ; (temperature in K) 
+BROADFUN     =   VOI  ; GAU/LOR/VOI
+HWHM         =   0.025 ; (broadening width in eV)
+HWHM2       =    0.001 ; (Lorentzian broadening in eV)  
+METHOD       =   TD
+DE           =   3.3753
+;VIBRATIONAL ANALYSIS 
+NORMALMODES  =   COMPUTE   ; COMPUTE/READ/IMPLICIT
+COORDS       =   INTERNAL ; CARTESIAN/INTERNAL
+;INPUT DATA FILES 
+STATE1_FILE  =   gs-bent-root0.fcc
+STATE2_FILE  =   gs-bent-root1.fcc
+ELDIP_FILE   =   eldip_gs-bent-root1_fchk

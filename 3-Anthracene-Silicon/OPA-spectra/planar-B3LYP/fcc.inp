@@ -1,0 +1,20 @@
+$$$
+PROPERTY     =   OPA  ; OPA/EMI/ECD/CPL/RR/TPA/MCD/IC
+MODEL        =   VG   ; AS/ASF/AH/VG/VGF/VH
+DIPOLE       =   HTi   ; FC/HTi/HTf
+TEMP         =   295.5 ; (temperature in K) 
+BROADFUN     =   VOI  ; GAU/LOR/VOI
+HWHM         =   0.035 ; (broadening width in eV)
+HWHM2        =   0.002
+METHOD       =   TD
+DE           =   2.8848 ; adabatic energy difference in the states
+;VIBRATIONAL ANALYSIS 
+NORMALMODES  =   COMPUTE   ; COMPUTE/READ/IMPLICIT
+NVIB         =   66
+COORDS       =   INTERNAL ; CARTESIAN/INTERNAL
+;INPUT DATA FILES 
+STATE1_FILE  =   gs-planar-root0.fcc
+STATE2_FILE  =   gs-planar-root1.fcc
+ELDIP_FILE   =   eldip_gs-planar-root0_fchk
+;VERBOSITY
+VERBOSE      =   2
