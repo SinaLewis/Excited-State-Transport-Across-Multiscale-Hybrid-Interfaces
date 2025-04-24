@@ -1,9 +1,10 @@
-# Code and Data for PhD Thesis:  
+# Code and Data for PhD Thesis  
+
 **Excited State Transport Across Multiscale Hybrid Interfaces**  
 *Author:* Sina Genevieve Lewis  
 *Institution:* University of Colorado Boulder, Department of Physics  
 *Year:* 2025  
-*Thesis directed by Prof. Joel D. Eaves* 
+*Thesis directed by Prof. Joel D. Eaves*
 
 This repository contains code, input files, and selected processed data corresponding to the results presented in my PhD thesis. The work spans several projects separated into their own folders.
 
@@ -16,17 +17,27 @@ This repository contains code, input files, and selected processed data correspo
 Please cite the original thesis or paper where appropriate if you use this code or data in your work.
 
 ## 📁 Repository Structure
-### Clock-Transitions
+
+### 2-Clock-Transitions
+
 From "Chapter 2: Clock Transitions Guard Against Spin Decoherence in Singlet Fission." This Chapter was reproduced from Lewis, S. G., Smyser, K. E. and Eaves, J. D. *J. Chem. Phys.* **155**, 194109, (2021), with the permission of AIP Publishing. Use of data and results should cite the paper.  
 
 - **Data**: Mathematica notebooks used in the analysis.  
 - **Figures**: Final figures as Adobe Illustrator files and PNGs.
 
+### 3-Anthracene-Silicon
 
-### Anthracene-Silicon
 From "Chapter 3: Steric-Induced Bending and Energy Level Shifts in 9-Anthracene on Si(111)." This Chapter is a manuscript in preparation in collaboration with Celena Marsters and Sean Roberts.
 
 - **Data**
+  - Input and log files for Gaussian TD-DFT calculations in different functionals and basis sets
   - Original Kohn-Sham Hamiltonian in the basis of $p_z$ and $sp^2$ orbitals for planar and bent anthracene.
   - Measured distances between atoms for planar and bent anthracene.
+  - Input files and output spectra for one-photon absorption (OPA) spectra calculated with FCClasses3.0
+  - POSCAR, OUTCAR, and processed density of states from VASP
+  - Born-Oppenheimer molecular dynamics (BOMD) inputs and outputs from VASP
 - **Figures**
+
+### 4-1-Photoelectrochemical_Acene-Silicon
+
+### 4-2-Photonupconversion_Anthracene-SiQD
