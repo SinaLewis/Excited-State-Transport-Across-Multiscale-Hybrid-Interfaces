@@ -1,0 +1,47 @@
+##
+SYSTEM = Si_surface_6layer
+
+ISTART = 1
+ICHARG = 1
+LWAVE = F
+LCHARG = F
+
+# vdw-forces
+IVDW = 12
+
+# Spin
+ISPIN = 2     # 2==spin-polarized calculation
+NUPDOWN = 2   # 2 more electrons in the upvs down spin component
+
+# elec
+ISMEAR = -5
+SIGMA = 0.05
+ENCUT = 540    # PEYTON'S NOTE: this doesn't fully converge C_GW potential, but was highest I could go for reasonable calculation run times. SINA'S NOTE: I'm keeping this value although I don't have any C atoms so that calculations are more comparable
+EDIFF = 1e-7
+NELMIN = 5
+
+# forces
+EDIFFG = -9.5e-3
+PREC = Accurate
+#NGXF = 480    # 4x fine grid (as opposed to default 2x) if forces are being weird
+#NGYF = 480
+#NGZF = 1152
+
+# relax
+IBRION = -1
+ISIF = 2
+#POTIM=0.35
+NSW = 0    # just check force convergence if 1
+
+# misc
+NBANDS = 640
+NCORE = 16    # 8 seems to be a good value for Enemy, not sure what KPAR should be in this case
+KPAR = 2
+ISYM = 0      # 0 doesn't use symmetry, but will assume psi_k = psi_(-k)^*
+IDIPOL = 3   # needed since we have vacuum
+
+## DOS-related: turn on for DOS
+LORBIT = 11
+EMIN = -5
+EMAX = 3
+NEDOS = 4001
