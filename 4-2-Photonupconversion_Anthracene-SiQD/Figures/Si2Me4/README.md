@@ -1,0 +1,1 @@
+Contains the first 50 ps of the simulation, that is cut as equilibration time and the first 50 ps post equilibriation. The dynamics are quite constant without any large changes in the radius of gyration.
