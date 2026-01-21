@@ -1,0 +1,1 @@
+Contains the first 50 ps of the simulation, that is cut as equilibration time, the first 50 ps post equilibriation, and the period between 250 ps and 300 ps where one of the largest changes in the radius of gyration occurs.
